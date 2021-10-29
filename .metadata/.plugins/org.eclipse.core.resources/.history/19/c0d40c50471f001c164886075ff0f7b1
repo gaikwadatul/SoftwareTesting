@@ -1,0 +1,27 @@
+package OOPS_CONCEPTS;
+
+abstract class demo1{
+	abstract void call(); {
+	 System.out.println("Hi i am Abstract method");	
+	}
+	
+}
+abstract class abs1{
+	abstract void call1();
+	abstract void call2();
+	
+	void display() {
+		
+	}
+	
+	
+}
+
+public class Abstraction {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

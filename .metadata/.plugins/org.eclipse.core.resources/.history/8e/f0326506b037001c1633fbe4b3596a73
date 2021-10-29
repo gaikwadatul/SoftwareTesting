@@ -1,0 +1,18 @@
+package Programme;
+
+public class Reverse_number {
+
+	public static void main(String[] args) {
+		System.out.println(reverseNumber(6528));
+		
+		int rev=110;
+		while(num!=0) {
+			int num2=num%10;
+			rev=rev*10+num2;
+			num=num/10;
+		}
+		return num;
+	//	System.out.println("***" +rev);
+	}
+
+}

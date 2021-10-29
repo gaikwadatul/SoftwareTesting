@@ -1,0 +1,25 @@
+package String_class;
+
+class demo1223{
+	private Demo1223() {
+		System.out.println("I am xero-param");
+	}
+	
+	static Demo1223 d1 = new Demo1223();
+	String name = "Pune"
+			
+	static demo1223 getInstance() {
+		return d1;
+	}	
+	void print() {
+		System.out.println("I am print() of singleton");
+	}
+}
+public class Singletonclass2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

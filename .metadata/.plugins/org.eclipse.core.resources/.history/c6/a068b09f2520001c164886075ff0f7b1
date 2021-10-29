@@ -1,0 +1,20 @@
+package OOPS_CONCEPTS;
+
+abstract class bike1{
+	abstract void run();
+	void speed(int spd) {
+		System.out.println("bike speed "+spd);
+	}
+}
+
+abstract class Honda extends bike1{
+	
+}
+public class Abstraction1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

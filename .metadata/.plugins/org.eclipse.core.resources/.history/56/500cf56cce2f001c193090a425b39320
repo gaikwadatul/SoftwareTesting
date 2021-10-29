@@ -1,0 +1,14 @@
+package String_class;
+
+public class String_buffer {
+	
+	public static void main(String[] args) {
+		
+		String_buffer sb=new String_buffer("Hello ");
+		System.out.println("original stringbuufeer"+sb);
+		sb.append("java");
+		System.out.println(sb);
+		
+	}
+
+}

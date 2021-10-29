@@ -1,0 +1,17 @@
+package javamethods;
+
+public class Thiskeyword1 {
+
+	int rollno;
+	float fees;
+	
+	Thiskeyword1(int rollno,float fees){
+	 this.rollno = rollno;
+	 this.fees = fees;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

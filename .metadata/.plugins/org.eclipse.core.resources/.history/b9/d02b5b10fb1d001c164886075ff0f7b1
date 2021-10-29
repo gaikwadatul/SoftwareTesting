@@ -1,0 +1,23 @@
+package OOPS_CONCEPTS;
+
+class A1{	
+	static int a=10;
+	int b=20;
+	double c=13.20;
+   }
+class B1 extend A1{	
+	static int a=10;
+	int b=20;
+	double c=13.20;
+   }
+	
+public class Inheritance {
+
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

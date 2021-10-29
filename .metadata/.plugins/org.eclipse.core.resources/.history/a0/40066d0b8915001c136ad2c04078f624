@@ -1,0 +1,10 @@
+package Constructor;
+
+public class constructor {
+
+	public static void main(String[] args) {
+		constructor c1 = new constructor();
+
+	}
+
+}

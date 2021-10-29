@@ -1,0 +1,13 @@
+package String_class;
+
+public class wrapperClass {
+
+	public static void main(String[] args) {
+		 int age=20;
+		 System.out.println("age: "+age);
+		 Integer intobj = new Integer(0);	 
+		 Integer j = age;
+		 System.out.println("a"+age);
+	}
+
+}

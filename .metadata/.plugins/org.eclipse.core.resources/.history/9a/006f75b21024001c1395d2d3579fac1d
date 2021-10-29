@@ -1,0 +1,36 @@
+package OOPS_CONCEPTS;
+
+interface i1{
+	//variable
+	//method
+	//no constructor
+}
+interface Drawable{
+	public abstract void draw();
+}
+//Implementation : by second user
+class Rectangle1 implements Drawable{
+	public void draw() {
+		System.out.println("drawing rectangle");
+	}
+}
+class circle implements Drawable{
+	public void draw() {
+		System.out.println("drawing circle");
+	}
+}
+//using interface: by third user
+public class Interface {
+
+	public static void main(String[] args) {
+		rectangle r1 = new rectangle();
+		r1.draw(); // drawing rectangle
+		circle c1 = new circle();
+		c1.draw();
+		drawable d = new circle();
+		d.draw();// drawing circle
+				
+
+	}
+
+}

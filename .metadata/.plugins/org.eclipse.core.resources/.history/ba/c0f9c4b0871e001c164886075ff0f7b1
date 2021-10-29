@@ -1,0 +1,23 @@
+package OOPS_CONCEPTS;
+
+class fourwheeler {
+	fourwheeler(){
+	System.out.println("*****Four wheeler Detail*****");
+	}
+	public void alto() {
+		System.out.println("Hi I am Alto Car");
+	}
+}
+class car extends fourwheeler{
+	public void type() {
+		System.out.println("I m a Car");
+	}
+}
+public class inheritance2 {
+
+	public static void main(String[] args) {
+	fourwheeler f1 = new fourwheeler();
+    f1.alto();
+	}
+
+}

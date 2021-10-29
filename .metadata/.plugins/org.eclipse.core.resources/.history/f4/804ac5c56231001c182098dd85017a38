@@ -1,0 +1,17 @@
+package OOPS_CONCEPTS;
+
+class chain{
+	
+}
+
+class chain2 extends chain{
+	
+}
+public class inheritanceDemo8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

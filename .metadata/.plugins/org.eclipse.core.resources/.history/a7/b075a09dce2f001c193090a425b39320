@@ -1,0 +1,19 @@
+package String_class;
+
+public class String_buffer {
+	
+	public String_buffer(String string) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		
+		String_buffer sb=new String_buffer("Hello ");
+		System.out.println("original stringbuufeer"+sb);
+		sb.apppend("java");
+		System.out.println(sb);
+		
+		
+	}
+
+}

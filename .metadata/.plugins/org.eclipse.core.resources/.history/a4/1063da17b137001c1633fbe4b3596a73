@@ -1,0 +1,17 @@
+package Programme;
+
+public class Reverse_number {
+
+	public static void main(String[] args) {
+		
+		int number=123,reverse=0;
+		
+		while(number!=0) {
+			reverse=reverse * 10 + number;
+			number=number/10;
+		}
+		
+    System.out.println("REverse number:" +reverse);
+	}
+
+}

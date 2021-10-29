@@ -1,0 +1,27 @@
+package OOPS_CONCEPTS;
+//parent class
+class fourwheeler {
+	//default cons.
+	public void wheels() {
+		System.out.println("Hi I have 4 wheels");
+	}
+}
+class car extends fourwheeler{
+	public void type() {
+		System.out.println("I m a Car");
+	}
+}
+class maruti extends car{
+	public void type() {
+		System.out.println("I m a Car");
+	}
+}
+
+public class inheritance2 {
+
+	public static void main(String[] args) {
+	fourwheeler f1 = new fourwheeler();
+    
+	}
+
+}

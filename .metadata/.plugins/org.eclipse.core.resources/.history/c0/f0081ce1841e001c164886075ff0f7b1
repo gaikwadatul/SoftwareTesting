@@ -1,0 +1,23 @@
+package OOPS_CONCEPTS;
+
+class fruit{
+	fruit(){
+	System.out.println("fruits class const..");
+	}
+}
+
+class taste extends fruit{
+	fruit(){
+		System.out.println("fruits class const..");
+		}	
+}
+
+public class Inheritance1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println();
+
+	}
+
+}

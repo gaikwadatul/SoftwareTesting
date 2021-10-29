@@ -1,0 +1,19 @@
+package OOPS_CONCEPTS;
+
+class chain{
+	int a=10;
+}
+
+class chain2 extends chain{
+	int b=20;
+}
+public class inheritanceDemo8 extends chain2 {
+
+	public static void main(String[] args) {
+		
+		inheritanceDemo8 c1= new inheritanceDemo8();
+		System.out.println("a value: "+a);
+
+	}
+
+}

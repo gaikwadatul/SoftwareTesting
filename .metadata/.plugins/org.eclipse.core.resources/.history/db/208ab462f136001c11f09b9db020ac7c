@@ -1,0 +1,22 @@
+package collection;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FilterInputStream;
+
+public class propertyfile_load {
+
+	public static void main(String[] args) {
+		
+		/**
+		 * 1.get the property file location
+		 * 2.create an instance of property class
+		 * 3.call load method of property class and pass of file location
+		 * 4.using property class ref call getproperty(string key) which will return data from key past
+		 */
+
+		//FilterInputStream fis = new FilterInputStream("E:\\Software Testing\\Java\\Workspace\\javabasic\\src\\collection\\testdata.properties");
+		
+	}
+
+}

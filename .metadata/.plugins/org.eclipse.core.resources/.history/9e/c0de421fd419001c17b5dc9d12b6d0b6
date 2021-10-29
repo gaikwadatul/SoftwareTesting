@@ -1,0 +1,12 @@
+package javamethods;
+
+public class ThisKeyword {
+
+	int salary;
+	public static void main(String[] args) {
+		int salary = 2000;
+		System.out.println("Salary:"+salary);
+
+	}
+
+}

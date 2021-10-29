@@ -1,0 +1,18 @@
+package String_class;
+
+public class String_class2 {
+
+	public static void main(String[] args) {
+		String s1="corejavabasic";
+		
+		//return the number of charactor in the string
+		System.out.println("string length"+s1.length()); //14-->0-13
+		
+		//concatination  the number of charactor in the string
+		System.out.println("string concatination is: "+s1.concat(s1)); //14-->0-13
+	
+		
+
+	}
+
+}

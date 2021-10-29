@@ -1,0 +1,15 @@
+package String_class;
+
+class demo1223{
+	private Demo122() {
+		System.out.println("I am xero-param");
+	}
+}
+public class Singletonclass2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

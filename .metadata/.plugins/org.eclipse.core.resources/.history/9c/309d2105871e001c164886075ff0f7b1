@@ -1,0 +1,18 @@
+package OOPS_CONCEPTS;
+
+class fourwheeler{
+	fourwheeler(){
+	System.out.println("fruits class const..");
+	}
+	public void taste() {
+		System.out.println("fruit are sweet");
+	}
+}
+public class inheritance2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

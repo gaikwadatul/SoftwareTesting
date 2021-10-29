@@ -1,0 +1,29 @@
+package OOPS_CONCEPTS;
+
+class company{
+	void display() {
+		System.out.println("i am class company display");
+	}
+	
+}
+
+
+class employee extends company{
+	void display() {
+		System.out.println("i am employee class callme()");
+	}
+	void callme() {
+		System.out.println("i am employee class callme()");
+	}
+}
+
+public class inheritance3 {
+
+	public static void main(String[] args) {
+		employee e1 = new employee();
+		e1.display();
+		e1.
+	}
+	
+
+}

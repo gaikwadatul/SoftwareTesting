@@ -1,0 +1,17 @@
+package OOPS_CONCEPTS;
+
+class chain{
+	
+}
+
+class chain2 extends chain{
+	
+}
+public class inheritanceDemo8 extends chain2 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

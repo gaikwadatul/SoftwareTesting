@@ -1,0 +1,27 @@
+package OOPS_CONCEPTS;
+
+class A1{	
+	static int a=10;
+	int b=20;
+	double c=13.20;
+   }
+class B1 extends A1{	
+	static int a=10;
+	int b=20;
+	double c=13.20;
+   }
+class C1 extends B1{	
+	static int a=50;
+	int b=60;
+	double c=53.20;
+   }
+	
+public class Inheritance {
+	
+	public static void main(String[] args) {
+		// Access static member class A members***
+		System.out.println("Class A1 static variable"+A+.a);
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package OOPS_CONCEPTS;
+
+abstract class demo1{
+	abstract void call(); {
+	 System.out.println("Hi i am Abstract method");	
+	}
+	
+}
+public class Abstraction {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

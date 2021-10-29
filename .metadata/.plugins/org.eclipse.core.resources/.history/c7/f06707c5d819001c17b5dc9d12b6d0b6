@@ -1,0 +1,22 @@
+package javamethods;
+
+public class Thiskeyword1 {
+
+	int rollno;
+	float fees;
+	
+	Thiskeyword1(int rollno,float fees){
+	 this.rollno = rollno;
+	 this.fees = fees;
+	}
+	
+	void display() {
+		System.out.println(rollno +""+fees);
+	}
+	
+	public static void main(String[] args) {
+		Thiskeyword1 t1 = new Thiskeyword1(111, 5000f);
+	    t1.display();   
+	}
+
+}

@@ -1,0 +1,14 @@
+package Programme;
+
+public class concat {
+
+	public static void main(String[] args) {
+		
+		String str="Pune"+null;
+		System.out.println(str);
+		String str1= str.concat(null); //Null
+		System.out.println(str1);
+
+	}
+
+}

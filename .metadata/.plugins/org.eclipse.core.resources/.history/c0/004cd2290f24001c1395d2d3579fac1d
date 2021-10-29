@@ -1,0 +1,21 @@
+package OOPS_CONCEPTS;
+
+class rectangle implements drawable{
+	public void draw() {
+		System.out.println("drawing rectangle");
+	}
+}
+class circle implements drawable{
+	public void draw() {
+		System.out.println("drawing circle");
+	}
+}
+public class Interface {
+
+	public static void main(String[] args) {
+		rectangle r1 = new rectangle()
+				
+
+	}
+
+}
